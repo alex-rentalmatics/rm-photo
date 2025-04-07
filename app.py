@@ -104,7 +104,7 @@ def main():
         tab1, tab2 = st.tabs(["🧭 Summary", "📑 More Metadata"])
 
         with tab1:
-            st.image(image, caption="Uploaded Image", use_column_width=True)
+            st.image(image, caption="Uploaded Image", use_container_width=True)
 
             st.markdown("### 🗂️ Basic Info")
             st.write(f"**File Name:** {uploaded_file.name}")
